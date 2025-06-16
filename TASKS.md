@@ -1,5 +1,7 @@
 # RAG Chatbot Implementation Tasks
 
+When going through tasks, check each one off as it completes.
+
 ## Setup & Dependencies
 - [x] Initialize Go module and basic project structure
 - [x] Add dependencies: gin, chroma-go, unidoc, sqlite, anthropic-sdk-go, generativeai-go
@@ -7,15 +9,15 @@
 - [x] Set up basic logging with slog
 
 ## Database & Storage
-- [ ] Create SQLite schema for documents metadata
-- [ ] Implement document storage (save uploaded PDFs to disk)
-- [ ] Create basic database operations (insert, query documents)
+- [x] Create SQLite schema for documents metadata
+- [x] Implement document storage (save uploaded PDFs to disk)
+- [x] Create basic database operations (insert, query documents)
 
 ## Vector Store
-- [ ] Set up Chroma client connection
-- [ ] Create collection for document chunks
-- [ ] Implement add/search functions for vectors
-- [ ] Test basic vector operations
+- [x] Set up Chroma client connection
+- [x] Create collection for document chunks
+- [x] Implement add/search functions for vectors
+- [x] Test basic vector operations
 
 ## LLM Interface
 - [ ] Define common LLM interface (Chat method)
@@ -46,3 +48,6 @@
 - [ ] Test switching between Claude and Gemini via env var
 - [ ] Add basic validation (file size, PDF format)
 - [ ] Create simple README with setup instructions
+
+## Tech debt
+- [ ] Replace Chroma with a windows compatible tool
